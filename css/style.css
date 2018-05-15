@@ -1,0 +1,100 @@
+/* THO */
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  margin: 10px 5px;
+  background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 300;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+p {
+  font-weight: 300;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* header */
+.header-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.header-ls {
+  width: 100px;
+}
+
+.header-ls img {
+  width: 90%;
+}
+
+.header-rs, .subtitle {
+  float: right;
+  padding: 8px 15px;
+  margin-top: 13px;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+
+/* menu */
+.menu-item {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #616161;
+  padding: 1.5em;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.menu-item a:hover {
+  color: rgb(66, 64, 64);
+  font-size: 1.08em;
+}
