@@ -1,0 +1,313 @@
+/* desktop */
+@media screen and (min-width: 900px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* ipad */
+@media screen and (max-width: 900px) {
+  body {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .header-rs h1 {
+    font-size: 2.3em;
+  }
+
+  .header-rs h6 {
+    font-size: 0.8em;
+  }
+
+  .main-bottom {
+    padding-bottom: 0;
+  }
+  .show-title {
+    padding-bottom: 40px;
+  }
+
+  .show-title h2 {
+    font-size: 2em;
+  }
+
+  .showcase {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .showcase-box {
+    width: 45%;
+    padding-bottom: 70px;
+  }
+
+  .showcase-desc {
+    font-size: 0.8em;
+  }
+}
+
+/* inbetween */
+@media screen and (max-width: 630px) {
+  .header-center {
+    height: 120px;
+    padding: 0;
+  }
+
+  .header-ls {
+    width: 20%;
+  }
+
+  .header-ls img {
+    width: 100%;
+  }
+
+  .header-rs h1 {
+    font-size: 1.5em;
+  }
+
+  .header-rs h6 {
+    font-size: 0.7em;
+  }
+
+  hr {
+    margin: 0 auto;
+  }
+
+  .menu-list {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .menu-item {
+    font-size: 0.9em;
+    width: 24%;
+  }
+
+  .menu-item a {
+    padding: 0;
+  }
+
+  .credit {
+    font-size: 0.4em;
+  }
+
+  .main-top {
+    margin-top: 20px;
+  }
+
+  .show-title {
+    padding-bottom: 25px;
+  }
+
+  .show-title h2 {
+    font-size: 1.5em;
+  }
+
+  .showcase {
+    width: 100%;
+  }
+  .showcase-box {
+    padding-bottom: 50px;
+  }
+  .showcase-desc {
+    font-size: 0.7em;
+    padding: 10px 0;
+  }
+
+  footer,
+  .footer-inner {
+    height: 70px;
+  }
+
+  .icons {
+    width: 40%;
+  }
+
+  .icon {
+    width: 24%;
+  }
+
+  .icon img {
+    width: 70%;
+  }
+
+  .rights {
+    font-size: 0.6em;
+  }
+}
+
+/* nexus5 */
+@media screen and (max-width: 445px) {
+  html,
+  body {
+    max-width: 360px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  main {
+    margin-bottom: 20px;
+  }
+
+  /* header */
+  .header-center {
+    height: 70px;
+    padding: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
+  }
+
+  .header-center.slide {
+    -webkit-transform: translate(-250px, 0);
+    transform: translate(-250px, 0);
+  }
+
+  .header-ls {
+    width: 15%;
+  }
+
+  .header-ls img {
+    width: 100%;
+  }
+
+  .menu-icon {
+    width: 15%;
+    display: inline-block;
+  }
+
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+
+  .menu-icon img {
+    width: 100%;
+  }
+
+  .header-rs {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-rs h1 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  .header-rs h6 {
+    font-size: 0.5em;
+    color: #000;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+  }
+
+  hr {
+    margin-top: 10px;
+  }
+
+  hr:after {
+    font-size: 0.9em;
+  }
+
+  /* menu */
+  .menu-bar {
+    width: 60%;
+    background: #ffa17f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #00223e,
+      #ffa17f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #00223e,
+      #ffa17f
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 70px;
+    padding-left: 20px;
+    -webkit-transform: translate(445px, 0);
+    transform: translate(445px, 0);
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+
+  .menu-bar.open {
+    -webkit-transform: translate(100, 0);
+    transform: translate(100px, 0);
+  }
+
+  .menu-item {
+    display: block;
+    padding: 20px;
+  }
+
+  .menu-item a {
+    color: #fff;
+  }
+
+  /* body: top*/
+  .body-top {
+    margin: 0;
+  }
+
+  .body-top-inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .credit {
+    font-size: 0.5em;
+  }
+
+  /* body: middle */
+  .body-middle {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding-bottom: 0;
+  }
+  .show-title {
+    padding: 0;
+  }
+
+  .show-title h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .showcase {
+    margin-top: 25px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .showcase-box {
+    width: 80%;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  }
+
+  .showcase-desc {
+    font-size: 0.8em;
+    padding-top: 10px;
+  }
+
+  /* footer */
+
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+}
