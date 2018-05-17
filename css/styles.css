@@ -99,13 +99,13 @@ hr.style-seven:before {
   font-size: 1.08em;
 }
 
-/* menu */
+/* body */
 .main-top {
   margin-top: 30px;
 }
 
-.main-top-inner img {
-  width: 100%;
+.main-top img {
+  width: 50%;
 }
 
 .credit {
@@ -117,6 +117,10 @@ hr.style-seven:before {
 }
 
 /* showcase */
+.ft-work {
+  text-align: center;
+}
+
 .main-bottom {
   padding-bottom: 40px;
 }
