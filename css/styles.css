@@ -117,19 +117,12 @@ hr.style-seven:before {
 }
 
 /* showcase */
-.ft-work {
-  text-align: center;
-}
-
 .main-bottom {
   padding-bottom: 40px;
 }
 
 .show-title {
   font-family: 'Pacifico', cursive;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  padding: 15px 0;
   text-align: center;
 }
 
